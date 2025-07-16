@@ -9,3 +9,60 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* Shared Style*/
+.display-flex{
+    display: flex;
+}
+.text-gray{
+    color: #727272;
+}
+.primary-btn{
+    font-size: 1.8rem;
+    background:#FF900E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+
+/* Hrader Section  */
+
+.nav-items{
+    list-style: none;
+}
+.nav-links{
+    margin-left: 20px;
+    text-decoration: none;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.bg-1{
+    background-color: #FFF4E7;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner-text{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 850px;
+    margin-bottom: 50px;
+}
+.banner-text h1{
+    font-size: 4rem;
+}
+.brand{
+    font-size: 2.8rem;
+}
+
+/* Responcive Parts */
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+}
