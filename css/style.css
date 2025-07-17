@@ -103,6 +103,101 @@ main > section{
 .some-fact p{
 
 }
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    margin: 0 auto;
+}
+.card{
+    border: 1px solid #FF900E;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    padding: auto;
+    justify-content: center;
+    border-radius: 8px;
+}
+.another{
+    margin-top: 50px;
+}
+
+
+/* Ferater Section */
+.what-if{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 80px;
+}
+.feater-section h3{
+    font-size: 4rem;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    
+}
+.f-card{
+    
+    padding: 20px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.096);
+    margin-bottom: 20px;
+
+}
+.feter-card{
+
+}
+.tenyer{
+    font-size: 4rem;
+}
+.Experience{
+    font-size: 1.8rem;
+}
+.altar{
+    padding: 30px;
+    margin-top: -100px;
+    margin-left: -70px;
+}
+
+
+/* Sponcer Section */
+.sponcer-section{
+    max-width: 540px;
+}
+.sponcer-section h3{
+    font-size: 3rem;
+}
+.sponcer-section p{
+    margin-top: -15px;
+}
+.sponcer-img{
+    display: grid;
+    grid-template-columns: repeat(5, 5fr);
+}
+.sponcer-img img{
+    margin: 20px 70px;
+    filter: grayscale(100%);
+}
+
+
+/* Footer Section */
+.copyright{
+    background: #e68d2931;
+    
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+    width: 100%;
+}
+.copyright p{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+
+
+
+
+
 /* Responcive Parts */
 @media screen and (max-width: 576px) {
     .navbar, .nav-links{
